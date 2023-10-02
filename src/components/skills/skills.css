@@ -1,0 +1,44 @@
+.skills {
+    display: flex;
+    justify-items: center;
+}
+
+.skills__content {
+    padding: 1.5rem;
+}
+
+.skillls__title,
+.skiills__subtitle {
+    padding-bottom: 1rem;
+}
+
+.skillls__title {
+    text-align: center;
+}
+
+.skills__tec {
+    padding: 1rem;
+    padding-bottom: 5%;
+}
+
+.skills__icon {
+    padding-left: 1rem;
+   
+}
+
+/** Para telas mobile **/
+@media(max-width: 992px){
+    .skills__tec{
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .skills__name {
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+
+}

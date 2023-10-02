@@ -1,0 +1,32 @@
+.footer {
+    background-color: #f1efefd2;
+    margin: 0;
+    padding: 1.5rem;
+}
+.footer__social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+
+.footer__social_icon {
+    padding-bottom: 0.7rem;
+    color:#111;
+    font-weight: 600; 
+    font-size: 1rem;
+}
+
+.footer__up:hover,
+.footer__social_icon:hover {
+    color:rgb(68, 67, 67);
+}
+
+.footer__up {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 2rem;
+    color:#111;
+    padding-bottom: 1rem;
+}

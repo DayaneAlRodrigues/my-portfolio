@@ -1,0 +1,51 @@
+.contato__form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.contato__form-div {
+    margin-bottom: 1rem;
+    height: 4rem;
+    display: flex;
+   
+}
+
+.contato__form-label {
+    padding-right: 3rem;  
+    
+}
+
+.contato__form-input{
+    
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 1rem;
+    padding: 1rem;
+    
+}
+
+.button {
+    margin-top: 8rem;
+}
+
+.contato__form-area {
+    height: 11rem;
+    align-items: flex-start;
+}
+
+.contato__form-area  textarea {
+    resize: none;
+    
+}
+
+.contato__form-label-area {
+    padding-right: 1rem;  
+    margin-bottom: 2rem;
+}
+
+.button__icon_contato {
+    font-size: 1.3rem;
+}

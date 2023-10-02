@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea {
+    font-family: 400;
+    font-size:1rem ;
+
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #111;
+}
+
+h1, h2 , h3 {
+    color : rgb(45, 44, 44);
+    font-weight: 500;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section {
+    padding: 6rem 0 2rem;
+}
+
+.section__title {
+    font-size: 1.5rem;
+    color:rgb(31, 29, 29)
+}
+
+.section__subtitle {
+    display:block;
+    font-size: 0.8rem;
+    margin-bottom: 4rem;
+}
+
+.section__title,
+.section__subtitle {
+    text-align: center;
+}
+
+.container {
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.button {
+    display: inline-block;
+    background-color: rgb(20, 20, 20);
+    color: #fdfcfc;
+    padding: 1.25rem 2rem;
+    border-radius: 1rem;
+    font-weight: 600;
+}
+
+.button:hover {
+    background-color: rgb(68, 67, 67);
+}
+
+.button__icon {
+    margin-left: 1rem;
+}
+
+.button__flex {
+    display: inline-flex;
+    align-items: center;
+}
+
+
+/** Para telas grandes **/
+@media screen and (max-width: 992px){
+
+}
+
+/** Para telas medias **/
+@media screen and (max-width: 576px){
+    
+}
+
+/** Para telas pequenas **/
+@media screen and (max-width: 350px){
+    
+}
