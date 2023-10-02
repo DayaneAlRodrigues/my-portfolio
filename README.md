@@ -7,7 +7,7 @@ Com o comando:  create-react-app
 ### Também utilizei a biblioteca de ícones Unicons
 [https://iconscout.com/unicons/explore/line](Unicons) 
 
-### [Veja como ficou!]( https://dayanealrodrigues.github.io/my-portfolio/)
+### [Veja como ficou!](https://my-portfolio-2nlo.vercel.app/)
 
 
 
